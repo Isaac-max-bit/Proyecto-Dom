@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Pizzas</title>
+    <link rel="icon" type="image/png" href="./fotos/icons8-pizza-48.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1 id="titulo">🍕 ¡Elige tu Pizza!</h1>
+        <div id="menu-pizzas">
+            <div class="pizza" id="pizza-margherita">
+                <h2>Margherita</h2>
+                <img src="./fotos/margherita.jpg" alt="Pizza Margherita" class="imagen-pizza">
+                <ul class="toppings-list">
+                    <li class="topping fondo-rojo">Tomate</li>
+                    <li class="topping fondo-verde">Albahaca</li>
+                    <li class="topping fondo-blanco">Mozarella</li>
+                </ul>
+            </div>
+            <div class="pizza" id="pizza-pepperoni">
+                <h2>Pepperoni</h2>
+                <img src="./fotos/pepperoni.jpg" alt="Pizza Pepperoni" class="imagen-pizza">
+                <ul class="toppings-list">
+                    <li class="topping fondo-rojo">Pepperoni</li>
+                    <li class="topping fondo-blanco">Mozarella</li>
+                    <li class="topping fondo-naranja">Salsa de tomate</li>
+                </ul>
+            </div>
+            <div class="pizza" id="pizza-veggie">
+                <h2>Veggie</h2>
+                <img src="./fotos/veggie.jpg" alt="Pizza Veggie" class="imagen-pizza">
+                <ul class="toppings-list">
+                    <li class="topping fondo-verde">Espinaca</li>
+                    <li class="topping fondo-rojo">Tomate</li>
+                    <li class="topping fondo-naranja">Pimientos</li>
+                    <li class="topping fondo-blanco">Mozarella</li>
+                </ul>
+            </div>
+            <div class="pizza" id="pizza-barbacoa">
+                <h2>Barbacoa</h2>
+                <img src="./fotos/barbacoa.jpg" alt="Pizza Barbacoa" class="imagen-pizza">
+                <ul class="toppings-list">
+                    <li class="topping fondo-marron">Carne de res</li>
+                    <li class="topping fondo-rojo">Cebolla morada</li>
+                    <li class="topping fondo-naranja">Salsa barbacoa</li>
+                    <li class="topping fondo-blanco">Mozarella</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Escoge tu topping favorito:</h2>
+        <ul id="lista-toppings">
+            <li class="topping fondo-rojo" id="tomate">Tomate</li>
+            <li class="topping fondo-verde" id="albahaca">Albahaca</li>
+            <li class="topping fondo-naranja" id="pimientos">Pimientos</li>
+            <li class="topping fondo-blanco" id="mozzarella">Mozarella</li>
+            <li class="topping fondo-marron" id="carne">Carne</li>
+            <li class="topping fondo-naranja" id="salsa-barbacoa">Salsa Barbacoa</li>
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
