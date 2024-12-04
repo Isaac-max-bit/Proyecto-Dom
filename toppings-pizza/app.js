@@ -53,10 +53,31 @@
 // const primerTopping = document.querySelector('.topping');
 // console.log(primerTopping.style);
 
-const primerTopping = document.querySelector('.topping');
+// const primerTopping = document.querySelector('.topping');
+// console.log(primerTopping.style);
+
 
 // primerTopping.style.backgroundColor = 'blue';
 // primerTopping.style.color = '#6dff00';
 // primerTopping.style.textTransform = 'uppercase';
 
-console.log(primerTopping.style);
+// const listaDeToppings = document.getElementById('lista-toppings');
+
+// console.log('> innerText');
+// console.log(listaDeToppings.innerText);
+
+// console.log('> textContent');
+// console.log(listaDeToppings.textContent);
+
+// console.log('> innerHTML');
+// console.log(listaDeToppings.innerHTML);
+
+// const titulo = document.getElementById('titulo');
+
+// titulo.innerText = 'Mis Toppings Favoritos';
+
+const enlaces = document.getElementsByTagName('a');
+
+// console.log(enlaces[0].getAttribute('href'));
+// console.log(enlaces[0].removeAttribute('href'));
+console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
