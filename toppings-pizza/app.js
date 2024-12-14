@@ -76,8 +76,42 @@
 
 // titulo.innerText = 'Mis Toppings Favoritos';
 
-const enlaces = document.getElementsByTagName('a');
+// const enlaces = document.getElementsByTagName('a');
 
 // console.log(enlaces[0].getAttribute('href'));
 // console.log(enlaces[0].removeAttribute('href'));
-console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
+// console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
+
+
+// const primerTopping = document.querySelector('.topping');
+
+// primerTopping.classList.add('texto-verde');
+
+// console.log(primerTopping.classList);
+
+
+// const primerTopping = document.querySelector('.topping');
+
+// primerTopping.classList.remove('topping');
+
+// console.log(primerTopping.classList);
+
+// const listaDeToppings = document.getElementById('lista-toppings');
+
+// const toppingNuevo = document.createElement('li');
+// toppingNuevo.classList.add('topping', 'fondo-marron');
+// toppingNuevo.innerText = 'Queso Extra';
+
+// listaDeToppings.appendChild(toppingNuevo)
+
+// // listaDeToppings.append('Hola Mundo')
+
+// const toppingAdd = document.createElement('li');
+// toppingAdd.classList.add('topping', 'fondo-naranja');
+// toppingAdd.innerText = 'Napolitana';
+
+// listaDeToppings.appendChild(toppingAdd)
+
+const listaDeToppings = document.getElementById('lista-toppings');
+
+console.log(listaDeToppings);
