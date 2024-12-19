@@ -112,6 +112,29 @@
 
 // listaDeToppings.appendChild(toppingAdd)
 
-const listaDeToppings = document.getElementById('lista-toppings');
+// const listaDeToppings = document.getElementById('lista-toppings');
 
-console.log(listaDeToppings);
+// console.log(listaDeToppings);
+
+
+// const albahaca = document.getElementById('albahaca');
+// function mostrarClic(e) {
+//     console.log(e.target.innerText);
+// }
+
+// albahaca.addEventListener('click', mostrarClic);
+
+const toppings = document.getElementsByClassName('topping');
+
+
+
+for (const topping of toppings) {
+    topping.addEventListener('click', (e) => {
+        console.log(e.target.innerText);
+    });
+}
+
+
+
+
+
